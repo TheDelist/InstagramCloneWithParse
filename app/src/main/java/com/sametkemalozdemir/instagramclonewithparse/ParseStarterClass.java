@@ -12,7 +12,7 @@ public class ParseStarterClass  extends Application {
         Parse.setLogLevel(Parse.LOG_LEVEL_VERBOSE);
 
         Parse.initialize(new Parse.Configuration.Builder(this)
-                .applicationId(applicationId)//change this 
+                .applicationId(applicationId)//change this (String)
                 // if desired
                 .clientKey("clientKey")//change this
                 .server("https://parseapi.back4app.com/")
